@@ -1,6 +1,8 @@
 'use strict';
 
-require("babel-polyfill");
+if (!global._babelPolyfill) {
+    require("babel-polyfill");
+}
 
 const _ = require('lodash');
 const Dynalite = require('dynalite');
