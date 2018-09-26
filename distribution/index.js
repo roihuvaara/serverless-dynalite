@@ -195,7 +195,7 @@ var ServerlessDynalite = function () {
 
                             case 7:
                                 _context4.next = 9;
-                                return this.service.mergeResourceArrays();
+                                return this.service.mergeArrays();
 
                             case 9:
                                 _context4.next = 11;

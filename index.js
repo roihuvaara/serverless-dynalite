@@ -136,7 +136,7 @@ class ServerlessDynalite {
       await this.service.load(options);
       await this.serverless.variables.populateService(options);
       await this.service.setFunctionNames(options);
-      await this.service.mergeResourceArrays();
+      await this.service.mergeArrays();
       await this.service.validate();
     }
 
